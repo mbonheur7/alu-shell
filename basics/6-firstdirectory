@@ -1,5 +1,3 @@
 #!/bin/bash
-# Create directory in /tmp
 mkdir -p /tmp/my_first_directory
-# Confirm creation
-echo "Directory /tmp/my_first_directory created successfully."
+
