@@ -1,3 +1,2 @@
 #!/bin/bash
 pwd echo "this is the path of the current working directory"
-
