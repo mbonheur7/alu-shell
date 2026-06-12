@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+#managing anthr file 
 case "$1" in
     start)
         ./manage_my_process &
