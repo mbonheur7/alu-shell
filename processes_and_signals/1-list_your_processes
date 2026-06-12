@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Display all processes for all users, including those without a TTY
+# -a: all users
+# -u: user-oriented format
+# -x: processes without a controlling TTY
+# -f: ASCII art process hierarchy (forest)
+ps auxf
