@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
-#that groups visitors by IP and HTTP status code, and displays this data.
-awk '{print $1, $9}' apache-access.log | sort | uniq -c | sort -nr | awk '{print $1, $2, $3}'
+# Check if the file exists as an argument, otherwise use default
+FILE=${1:-apache-access.log}
+
+awk '{print $1, $9}' "$FILE" | sort | uniq -c | sort -rn
