@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Display all processes for all users, including those without a TTY
 # -a: all users
 # -u: user-oriented format
